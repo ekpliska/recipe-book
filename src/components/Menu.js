@@ -1,12 +1,13 @@
 import React from 'react';
 import Recipe from './Recipe';
+import '../stylesheets/Menu.module.css';
 
 const Menu = ({ title, recipes }) => {
     // debugger;
     return (
         <article>
             <header>
-                <h1>
+                <h1 className="menutitle">
                     {title}
                 </h1>
             </header>
